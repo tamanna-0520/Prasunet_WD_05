@@ -1,0 +1,59 @@
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    body {
+        background-image: url('bg_image_3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
+
+    .card {
+        position: relative;
+        width: 21rem;
+        margin: 2px 2px 2px 2px;
+    }
+
+    h1 {
+        margin: 10px 0px 30px 90px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
+
+    .card {
+        position: relative;
+        width: 18rem;
+        margin: 2px 2px 2px 2px;
+    }
+
+    h1 {
+        margin: 20px 0px 30px 60px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
+
+    .card {
+        position: relative;
+        width: 17rem;
+        margin-left: 0.5px;
+    }
+
+    h1 {
+        margin: 20px 0px 30px 60px;
+    }
+}

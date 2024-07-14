@@ -1,0 +1,71 @@
+body {
+    background-image: url(bg_image_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    width: 80%;
+    margin-left: 50px;
+    padding: 20px;
+    background: rgba(204, 217, 237, 0.2); /* Semi-transparent background */
+    border-radius: 10px;
+    overflow: hidden;  /* Ensure the blur does not extend outside the container */
+}
+
+h1 {
+    margin-left: 210px;
+}
+
+.search {
+    display: flex;
+}
+
+#search-bar{
+    margin: 10px;
+    width: 450px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#search-btn {
+    margin: 10px;
+    height: 38px;
+    width: 40px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); 
+}
+
+button:active {
+    border: 1px solid black;
+}
+
+.weather-container {
+    height: 250px;
+}
+
+.weather-item {
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 8px;
+}
+
+#city-name {
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+}
